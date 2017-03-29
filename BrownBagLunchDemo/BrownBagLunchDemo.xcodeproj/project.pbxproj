@@ -161,9 +161,11 @@
 				TargetAttributes = {
 					A5EDD02A1B5B15A4000F5D5A = {
 						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0830;
 					};
 					A5EDD03F1B5B15A4000F5D5A = {
 						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0830;
 						TestTargetID = A5EDD02A1B5B15A4000F5D5A;
 					};
 				};
@@ -343,6 +345,7 @@
 				INFOPLIST_FILE = BrownBagLunchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -353,6 +356,7 @@
 				INFOPLIST_FILE = BrownBagLunchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -371,6 +375,7 @@
 				INFOPLIST_FILE = BrownBagLunchDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrownBagLunchDemo.app/BrownBagLunchDemo";
 			};
 			name = Debug;
@@ -386,6 +391,7 @@
 				INFOPLIST_FILE = BrownBagLunchDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrownBagLunchDemo.app/BrownBagLunchDemo";
 			};
 			name = Release;
@@ -409,6 +415,7 @@
 				A5EDD04C1B5B15A4000F5D5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5EDD04D1B5B15A4000F5D5A /* Build configuration list for PBXNativeTarget "BrownBagLunchDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +424,7 @@
 				A5EDD04F1B5B15A4000F5D5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

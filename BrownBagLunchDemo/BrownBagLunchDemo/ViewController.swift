@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         blueSliderLabel.text = "Blue: \(blueSlider.value)"
     }
     
-    @IBAction func sliderValueChanged(sender: UISlider) {
+    @IBAction func sliderValueChanged(_ sender: UISlider) {
         view.backgroundColor = UIColor(red: CGFloat(redSlider.value)/255, green: CGFloat(greenSlider.value)/255, blue: CGFloat(blueSlider.value)/255, alpha: 1.0)
         
         redSliderLabel.text = "Red: \(redSlider.value)"
@@ -44,9 +44,9 @@ class ViewController: UIViewController {
         }
     }
     
-    func toggleRooster(visible: Bool) {
-        rooster.hidden = !visible
-        roosterLabel.hidden = !visible
+    func toggleRooster(_ visible: Bool) {
+        rooster.isHidden = !visible
+        roosterLabel.isHidden = !visible
     }
 }
 
