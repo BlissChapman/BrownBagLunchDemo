@@ -161,6 +161,7 @@
 				TargetAttributes = {
 					A5EDD02A1B5B15A4000F5D5A = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = VM5XXWMN9Y;
 						LastSwiftMigration = 0830;
 					};
 					A5EDD03F1B5B15A4000F5D5A = {
@@ -348,6 +349,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VM5XXWMN9Y;
 				INFOPLIST_FILE = BrownBagLunchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.blissChapman.$(PRODUCT_NAME:rfc1034identifier)";
@@ -360,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VM5XXWMN9Y;
 				INFOPLIST_FILE = BrownBagLunchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.blissChapman.$(PRODUCT_NAME:rfc1034identifier)";
